@@ -10,7 +10,7 @@ public class Configuration  {
 public static  Properties prop;
 
 public static void loadConfiguration() {
-	File f = new File("/Users/premalathaeddyam/eclipse-workspace/MyProject1/src/main/resources/Config.properties");
+	File f = new File("/Users/premalathaeddyam/git/MyProject1/MyProject1/src/main/resources/Config.properties");
 	FileInputStream fis = null;
 	try {
 		fis = new FileInputStream(f);

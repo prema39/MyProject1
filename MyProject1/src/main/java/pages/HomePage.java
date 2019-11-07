@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.WebDriver;
-
+import org.testng.AssertJUnit;
 
 import util.ElementActions;
 
@@ -13,8 +13,8 @@ public class HomePage extends ElementActions {
 	}
 	public void pageTitle() {
 		String title = driver.getTitle();
+		AssertJUnit.assertEquals(title, "Login·: rediff");
 		System.out.println(title);
-		//Assert.assertEquals(title, "Facebook");
 	}
 
 	
